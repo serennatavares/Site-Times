@@ -78,3 +78,11 @@ body{
 .jogador p {
     margin-top: 10px;
 }
+
+footer {
+    background-color: brown; /* mesma cor do navbar */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
