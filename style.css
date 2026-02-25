@@ -24,20 +24,23 @@ body{
 
 #noticias {
     display: flex;
-    text-align: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     padding: 6px;
-
     background-color: rgb(136, 39, 39);
 }
 
 .noticia{
     background-color: rgb(70, 25, 25);
     color: aliceblue;
-    border: 4px solid rgb(0, 0, 0)
-
+    border: 4px solid rgb(0, 0, 0);
+    width: 22%;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .img_noticia {
-    width: 40px;
+    width: 100%;
+    height: auto;
 }
