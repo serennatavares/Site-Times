@@ -86,3 +86,12 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+
+#gif-flutuante {
+    position: fixed;      
+    bottom: 20px;        
+    right: 20px;          
+    width: 120px;        
+    height: auto;
+    z-index: 1000;        
+}
